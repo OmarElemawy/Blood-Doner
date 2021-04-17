@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_width="match_parent">
+        <Button
+            android:paddingLeft="@dimen/dim15"
+            android:drawablePadding="@dimen/dim15"
+            android:gravity="left|center"
+            android:id="@+id/tack_image_dialog"
+            android:textColor="@android:color/black"
+            android:text="Tack Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_menu_camera"
+            />
+        <Button
+            android:gravity="left|center"
+            android:paddingLeft="@dimen/dim15"
+            android:drawablePadding="@dimen/dim15"
+            android:drawableLeft="@drawable/ic_menu_gallery"
+            android:id="@+id/select_image_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image From Gallery"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:textAllCaps="false"
+
+            />
+
+    </LinearLayout>
